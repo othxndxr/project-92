@@ -41,6 +41,8 @@ function check() {
     } else {
         if (answer_turn == "player1") {
             document.getElementById("output").innerHTML = "Wrong Answer!";
+        } else {
+            document.getElementById("output").innerHTML = "Wrong Answer!";
         }
     }
     if (question_turn == "player1") {
