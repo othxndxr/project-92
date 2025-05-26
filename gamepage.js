@@ -31,18 +31,10 @@ function check() {
     if (get_answer == actual_answer) {
         if (answer_turn == "player1") {
             player1_score = player1_score + 1;
-            document.getElementById("waiter").innerHTML = "Correct Answer!";
             document.getElementById("player1_score").innerHTML = player1_score;
         } else {
             player2_score = player2_score + 1;
-            document.getElementById("waiter").innerHTML = "Correct Answer!";
             document.getElementById("player2_score").innerHTML = player2_score;
-        }
-    } else {
-        if (answer_turn == "player1") {
-            document.getElementById("waiter").innerHTML = "Wrong Answer!";
-        } else {
-            document.getElementById("waiter").innerHTML = "Wrong Answer!";
         }
     }
     if (question_turn == "player1") {
